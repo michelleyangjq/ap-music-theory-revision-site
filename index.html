@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AP Music Theory</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="site-wrapper">
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <a href="index.html">AP Music Theory<span>Free Study Guide</span></a>
+    </div>
+
+    <nav>
+      <a href="index.html" class="active"><span class="nav-icon">🏠</span> Home</a>
+      <a href="about.html"><span class="nav-icon">👩‍💻</span> About the creator</a>
+    </nav>
+    
+    <div class="nav-section-label">Units</div>
+    <nav>
+      <a href="unit1.html"><span class="nav-icon">🎵</span> 1. Music Fundamentals I</a>
+      <a href="unit2.html"><span class="nav-icon">🎼</span> 2. Music Fundamentals II</a>
+      <a href="unit3.html"><span class="nav-icon">🎹</span> 3. Music Fundamentals III</a>
+      <a href="unit4.html"><span class="nav-icon">🗣️</span> 4. Harmony and Voice Leading I</a>
+      <a href="unit5.html"><span class="nav-icon">🪇</span> 5. Harmony and Voice Leading II</a>
+      <a href="unit6.html"><span class="nav-icon">🎻</span> 6. Harmony and Voice Leading III</a>
+      <a href="unit7.html"><span class="nav-icon">🎶</span> 7. Harmony and Voice Leading IV</a>
+      <a href="unit8.html"><span class="nav-icon">📝</span> 8. Modes and Form</a>
+      <a href="dictation-tips.html"><span class="nav-icon">👂</span> Tips for Dictation</a>
+      <a href="sightsinging-tips.html"><span class="nav-icon">🎤</span> Tips for Sightsinging</a>
+    </nav>
+
+    <div class="nav-section-label">Practice</div>
+    <nav>
+      <a href="review.html"><span class="nav-icon">📝</span> Mixed Review <span class="nav-badge">All units</span></a>
+    </nav>
+
+    <div class="sidebar-progress">
+      <h4>Your Progress</h4>
+      <div id="sidebar-progress-items"></div>
+    </div>
+  </aside>
+
+  <!-- Mobile overlay -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <!-- Topbar (mobile) -->
+  <div class="topbar">
+    <span class="topbar-title">AP Music Theory</span>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+  </div>
+
+  <!-- Main content -->
+  <main class="main-content">
+
+    <section class="hero">
+      <div class="hero-eyebrow">Free AP Exam Prep</div>
+      <h1>AP Music Theory<br><em>Study Guide</em></h1>
+      <p class="hero-sub">
+        Everything you need to ace the AP Music Theory exam — clear notes, flashcards, and practice quizzes for every unit. No sign-up needed.
+      </p>
+      <div class="hero-tags">
+        <span class="tag">📖 Reference Notes</span>
+        <span class="tag">🃏 Flashcards</span>
+        <span class="tag pink">✏️ Quizzes</span>
+        <span class="tag pink">👂 Ear Training</span>
+        <span class="tag">✅ Progress Tracking</span>
+      </div>
+    </section>
+
+    <!-- How to use -->
+    <section class="how-to-use">
+      <div class="section-heading">
+        <h2>How to use this guide</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h4>Read the Notes</h4>
+          <p>Each unit starts with key terms, rules, and formulas — your reference sheet.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h4>Drill Flashcards</h4>
+          <p>Flip through vocabulary cards until the terms feel automatic.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h4>Take the Quiz</h4>
+          <p>Mix of multiple choice, true/false, and type-in questions — just like the exam.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h4>Track Progress</h4>
+          <p>Your quiz scores are saved in the sidebar so you know what to revisit.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Units grid -->
+    <section>
+      <div class="section-heading">
+        <h2>All Units</h2>
+        <span class="count">5 units · 1 review</span>
+      </div>
+
+      <div class="units-grid">
+
+        <a href="unit1.html" class="unit-card">
+          <div class="unit-card-icon">🎵</div>
+          <div class="unit-card-num">Unit 1</div>
+          <h3>Note Reading & Rhythm</h3>
+          <p>Clefs, note names, rhythmic values, time signatures, and rests.</p>
+          <div class="unit-card-footer">
+            <span class="pill">Notes</span>
+            <span class="pill">Flashcards</span>
+            <span class="pill pink">Quiz</span>
+          </div>
+        </a>
+
+        <a href="unit2.html" class="unit-card">
+          <div class="unit-card-icon">🎼</div>
+          <div class="unit-card-num">Unit 2</div>
+          <h3>Scales & Key Signatures</h3>
+          <p>Major & minor scales, modes, circle of fifths, key identification.</p>
+          <div class="unit-card-footer">
+            <span class="pill">Notes</span>
+            <span class="pill">Flashcards</span>
+            <span class="pill pink">Quiz</span>
+          </div>
+        </a>
+
+        <a href="unit3.html" class="unit-card">
+          <div class="unit-card-icon">🎹</div>
+          <div class="unit-card-num">Unit 3</div>
+          <h3>Chords & Harmony</h3>
+          <p>Triads, seventh chords, inversions, Roman numerals, progressions.</p>
+          <div class="unit-card-footer">
+            <span class="pill">Notes</span>
+            <span class="pill">Flashcards</span>
+            <span class="pill pink">Quiz</span>
+          </div>
+        </a>
+
+        <a href="unit4.html" class="unit-card">
+          <div class="unit-card-icon">👂</div>
+          <div class="unit-card-num">Unit 4</div>
+          <h3>Ear Training</h3>
+          <p>Interval identification, melodic dictation, and chord quality by ear.</p>
+          <div class="unit-card-footer">
+            <span class="pill">Interactive</span>
+            <span class="pill pink">Listen & ID</span>
+          </div>
+        </a>
+
+        <a href="unit5.html" class="unit-card">
+          <div class="unit-card-icon">📋</div>
+          <div class="unit-card-num">Unit 5</div>
+          <h3>Form & Analysis</h3>
+          <p>Binary, ternary, rondo, sonata form, cadences, and phrase structure.</p>
+          <div class="unit-card-footer">
+            <span class="pill">Notes</span>
+            <span class="pill">Flashcards</span>
+            <span class="pill pink">Quiz</span>
+          </div>
+        </a>
+
+        <a href="review.html" class="unit-card">
+          <div class="unit-card-icon">📝</div>
+          <div class="unit-card-num">Review</div>
+          <h3>Mixed Review Quiz</h3>
+          <p>Questions pulled from all five units to simulate the real exam.</p>
+          <div class="unit-card-footer">
+            <span class="pill pink">All units</span>
+            <span class="pill pink">Mixed quiz</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="js/nav.js"></script>
+<script src="js/progress.js"></script>
+</body>
+</html>
