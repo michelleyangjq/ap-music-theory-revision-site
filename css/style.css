@@ -769,7 +769,7 @@ b {
 .main-content ol,
 .main-content ul {
   padding-left: 1.5rem;
-  /* padding-bottom: 1.5rem; */
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;

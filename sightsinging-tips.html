@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unit 1: Note Reading & Rhythm — AP Music Theory</title>
+  <title>Sightsinging Tips - AP Music Theory</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -16,14 +16,23 @@
       <a href="index.html">AP Music Theory<span>Free Study Guide</span></a>
     </div>
 
+    <nav>
+      <a href="index.html" class="active"><span class="nav-icon">🏠</span> Home</a>
+      <a href="about.html"><span class="nav-icon">👩‍💻</span> About the creator</a>
+    </nav>
+    
     <div class="nav-section-label">Units</div>
     <nav>
-      <a href="index.html"><span class="nav-icon">🏠</span> Home</a>
-      <a href="unit1.html"><span class="nav-icon">🎵</span> Note Reading & Rhythm</a>
-      <a href="unit2.html"><span class="nav-icon">🎼</span> Scales & Key Signatures</a>
-      <a href="unit3.html"><span class="nav-icon">🎹</span> Chords & Harmony</a>
-      <a href="unit4.html"><span class="nav-icon">👂</span> Ear Training</a>
-      <a href="unit5.html"><span class="nav-icon">📋</span> Form & Analysis</a>
+      <a href="unit1.html"><span class="nav-icon">🎵</span> 1. Music Fundamentals I</a>
+      <a href="unit2.html"><span class="nav-icon">🎼</span> 2. Music Fundamentals II</a>
+      <a href="unit3.html"><span class="nav-icon">🎹</span> 3. Music Fundamentals III</a>
+      <a href="unit4.html"><span class="nav-icon">🗣️</span> 4. Harmony and Voice Leading I</a>
+      <a href="unit5.html"><span class="nav-icon">🪇</span> 5. Harmony and Voice Leading II</a>
+      <a href="unit6.html"><span class="nav-icon">🎻</span> 6. Harmony and Voice Leading III</a>
+      <a href="unit7.html"><span class="nav-icon">🎶</span> 7. Harmony and Voice Leading IV</a>
+      <a href="unit8.html"><span class="nav-icon">📝</span> 8. Modes and Form</a>
+      <a href="dictation-tips.html"><span class="nav-icon">👂</span> Tips for Dictation</a>
+      <a href="sightsinging-tips.html"><span class="nav-icon">🎤</span> Tips for Sightsinging</a>
     </nav>
 
     <div class="nav-section-label">Practice</div>
@@ -42,7 +51,7 @@
 
   <!-- Topbar (mobile) -->
   <div class="topbar">
-    <span class="topbar-title">Unit 1</span>
+    <span class="topbar-title">Tips for Sightsinging</span>
     <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
   </div>
 
@@ -57,132 +66,33 @@
 
     <!-- Tab Nav -->
     <div class="tab-nav">
-      <button class="tab-btn active" data-tab="notes">📖 Reference Notes</button>
-      <button class="tab-btn" data-tab="flashcards">🃏 Flashcards</button>
-      <button class="tab-btn" data-tab="quiz">✏️ Quiz</button>
+      <button class="tab-btn active" data-tab="notes">📖 Notes</button>
+      <button class="tab-btn" data-tab="flashcards">🃏 Warm-up Drills</button>
+      <button class="tab-btn" data-tab="quiz">✏️ Practice Exercises</button>
     </div>
 
     <!-- ── TAB: NOTES ── -->
     <div class="tab-panel active" id="tab-notes">
 
       <section class="notes-section">
-        <h3>Key Terms & Definitions</h3>
-        <div class="definition-list">
-          <div class="definition-item">
-            <div class="definition-term">Treble Clef (G Clef)</div>
-            <div class="definition-def">Marks the second line as G4. Used for higher-pitched instruments and the right hand of piano. Lines: E G B D F — "Every Good Boy Does Fine." Spaces: F A C E.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Bass Clef (F Clef)</div>
-            <div class="definition-def">Marks the fourth line as F3. Used for lower-pitched instruments and the left hand of piano. Lines: G B D F A — "Good Boys Do Fine Always." Spaces: A C E G.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Alto / Tenor Clef (C Clef)</div>
-            <div class="definition-def">Movable clef that marks middle C (C4). Alto clef: middle C on the third line. Tenor clef: middle C on the fourth line. Used in viola and some trombone/cello writing.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Ledger Lines</div>
-            <div class="definition-def">Short lines added above or below the staff to extend its range. Middle C (C4) sits on the first ledger line below the treble clef staff.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Time Signature</div>
-            <div class="definition-def">Two numbers at the beginning of a piece. The top number = beats per measure. The bottom number = which note value gets one beat (4 = quarter note, 8 = eighth note, 2 = half note).</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Simple Meter</div>
-            <div class="definition-def">Each beat divides into two equal parts. Examples: 2/4, 3/4, 4/4, 2/2, 3/2. The top number is 2, 3, or 4.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Compound Meter</div>
-            <div class="definition-def">Each beat divides into three equal parts. Examples: 6/8, 9/8, 12/8, 6/4. The top number is 6, 9, or 12. Divide top by 3 to get the number of beats.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Dotted Note</div>
-            <div class="definition-def">A dot after a note increases its duration by half. A dotted quarter = quarter + eighth = 1.5 beats (in 4/4). A double dot adds half of the first dot as well.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Tie vs. Slur</div>
-            <div class="definition-def">A tie connects two notes of the same pitch — held, not re-attacked. A slur connects notes of different pitches — play smoothly (legato).</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Tuplet</div>
-            <div class="definition-def">A group of notes that divides a beat in an unusual way. A triplet (3 notes) fills the space of 2. A duplet (2 notes) fills the space of 3 in compound meter.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Syncopation</div>
-            <div class="definition-def">Accenting a weak beat or the "and" of a beat — shifting the expected rhythmic emphasis. Creates a sense of rhythmic tension.</div>
-          </div>
-          <div class="definition-item">
-            <div class="definition-term">Hemiola</div>
-            <div class="definition-def">A rhythmic device where two groups of three (or three groups of two) are implied within the same metric space. Common in Baroque and Renaissance music.</div>
-          </div>
-        </div>
-      </section>
-
-      <section class="notes-section">
-        <h3>Note Values — Rules & Formulas</h3>
-        <table class="formula-table">
-          <thead>
-            <tr>
-              <th>Note Name</th>
-              <th>Symbol</th>
-              <th>Beats (in 4/4)</th>
-              <th>Subdivisions</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>Whole note</td><td>𝅝</td><td>4 beats</td><td>= 2 half notes</td></tr>
-            <tr><td>Half note</td><td>𝅗𝅥</td><td>2 beats</td><td>= 2 quarter notes</td></tr>
-            <tr><td>Quarter note</td><td>♩</td><td>1 beat</td><td>= 2 eighth notes</td></tr>
-            <tr><td>Eighth note</td><td>♪</td><td>½ beat</td><td>= 2 sixteenth notes</td></tr>
-            <tr><td>Sixteenth note</td><td>𝅘𝅥𝅯</td><td>¼ beat</td><td>= 2 thirty-second notes</td></tr>
-            <tr><td>Dotted half</td><td>𝅗𝅥.</td><td>3 beats</td><td>= 3 quarter notes</td></tr>
-            <tr><td>Dotted quarter</td><td>♩.</td><td>1½ beats</td><td>= 3 eighth notes</td></tr>
-            <tr><td>Dotted eighth</td><td>♪.</td><td>¾ beat</td><td>= 3 sixteenth notes</td></tr>
-          </tbody>
-        </table>
-      </section>
-
-      <section class="notes-section">
-        <h3>Common Time Signatures</h3>
-        <table class="formula-table">
-          <thead>
-            <tr>
-              <th>Signature</th>
-              <th>Type</th>
-              <th>Beats/Measure</th>
-              <th>Beat Unit</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td><strong>4/4</strong> (Common time, <em>C</em>)</td><td>Simple quadruple</td><td>4</td><td>Quarter note</td></tr>
-            <tr><td><strong>3/4</strong></td><td>Simple triple</td><td>3</td><td>Quarter note</td></tr>
-            <tr><td><strong>2/4</strong></td><td>Simple duple</td><td>2</td><td>Quarter note</td></tr>
-            <tr><td><strong>2/2</strong> (Cut time, <em>𝄵</em>)</td><td>Simple duple</td><td>2</td><td>Half note</td></tr>
-            <tr><td><strong>6/8</strong></td><td>Compound duple</td><td>2 (6 eighth)</td><td>Dotted quarter</td></tr>
-            <tr><td><strong>9/8</strong></td><td>Compound triple</td><td>3 (9 eighth)</td><td>Dotted quarter</td></tr>
-            <tr><td><strong>12/8</strong></td><td>Compound quadruple</td><td>4 (12 eighth)</td><td>Dotted quarter</td></tr>
-            <tr><td><strong>5/4</strong></td><td>Asymmetric</td><td>5</td><td>Quarter note (2+3 or 3+2)</td></tr>
-            <tr><td><strong>7/8</strong></td><td>Asymmetric</td><td>7 eighth notes</td><td>Varies (2+2+3, etc.)</td></tr>
-          </tbody>
-        </table>
-      </section>
-
-      <section class="notes-section">
-        <h3>Practice Problem</h3>
-        <div class="definition-item" style="display:block; padding: 1.25rem;">
-          <p style="font-weight:500; color: var(--ink); margin-bottom:0.75rem;">
-            <strong>Q:</strong> In 6/8 time, how many eighth notes are in one measure, and how many beats are there?
+        <div class="sightsinging-description">
+          <h2>Sightsinging...the Nightmare 👻</h2>
+          <p>I was completely new to sightsinging when I took AP Music Theory - Pitches and intervals didn't come to me naturally,
+              and even now, as I'm taking college musicianship courses, I still wouldn't say that I'm <i>great</i> at it.</p>
+          <p>BUT, I did get good enough to do well on the AP sightsinging FRQs, so here are some personal experiences and tips that I think 
+              could help to prepare for the exam, including warm-up drills, ways to practice before the exam, and test-taking strategy hacks.
           </p>
-          <details style="margin-top:0.5rem;">
-            <summary style="cursor:pointer; font-size:0.875rem; color:var(--blue-600); font-weight:500;">Show Answer</summary>
-            <p style="margin-top:0.75rem; font-size:0.875rem;">
-              6/8 has <strong>6 eighth notes per measure</strong> but only <strong>2 beats</strong> (compound duple). Each beat = a dotted quarter note, which is divided into 3 eighth notes. Count as: "1-and-a, 2-and-a."
-            </p>
-          </details>
+        </div>
+
+        <div class="sightsinging-description">
+          <h2>Sightsinging...the Nightmare 👻</h2>
+          <p>I was completely new to sightsinging when I took AP Music Theory - Pitches and intervals didn't come to me naturally,
+              and even now, as I'm taking college musicianship courses, I still wouldn't say that I'm <i>great</i> at it.</p>
+          <p>BUT, I did get good enough to do well on the AP sightsinging FRQs, so here are some personal experiences and tips that I think 
+              could help to prepare for the exam, including warm-up drills, ways to practice before the exam, and test-taking strategy hacks.
+          </p>
         </div>
       </section>
-
     </div>
 
     <!-- ── TAB: FLASHCARDS ── -->
