@@ -61,10 +61,17 @@ h1, h2, h3, h4 {
   color: var(--ink);
 }
 h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 600; }
-h2 { font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 600; }
-h3 { font-size: 1.2rem; font-weight: 600; }
-h4 { font-size: 1rem; font-weight: 600; font-family: var(--font-body); }
-p  { color: var(--ink-soft); font-weight: 300; }
+h2 { font-size: clamp(1.4rem, 2vw, 1.75rem); font-weight: 600; padding-bottom: 1rem;}
+h3 { font-size: 1.2rem; font-weight: 600; padding-bottom: 1rem;}
+h4 { font-size: 1rem; font-weight: 600; font-family: var(--font-body); padding-bottom: 1rem;}
+p  { color: var(--ink-soft); 
+  font-weight: 300; 
+padding-bottom: 0.5rem;}
+
+b {
+  /* Make bold text more bold */
+  font-weight: 800; 
+}
 
 /* ── Layout: Sidebar + Content ── */
 .site-wrapper {
@@ -193,6 +200,18 @@ p  { color: var(--ink-soft); font-weight: 300; }
   flex: 1;
   padding: 2.5rem 3rem;
 }
+/* ── Unit Content Nav Tab ── */
+.content-nav-tab{
+          padding: 0.35rem 0.9rem;
+          border-radius: 99px;
+          font-size: 0.78rem;
+          font-weight: 500;
+          background: var(--blue-50);
+          color: var(--blue-600);
+          border: 1px solid var(--blue-100);
+          text-decoration: none;
+          transition: background 0.2s;
+        }
 
 /* ── Top bar (mobile) ── */
 .topbar {
@@ -436,14 +455,15 @@ p  { color: var(--ink-soft); font-weight: 300; }
   font-size: 1rem;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border);
+  /* border-bottom: 1px solid var(--border); */
 }
-.definition-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.definition-list { display: flex; flex-direction: column;}
 .definition-item {
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 0.9rem 1.1rem;
+  margin-bottom: 0.5rem;
   display: grid;
   grid-template-columns: 160px 1fr;
   gap: 0.75rem;
