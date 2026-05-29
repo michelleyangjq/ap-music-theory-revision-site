@@ -800,6 +800,9 @@ b {
   color: var(--ink-soft);
   font-weight: 300;
   line-height: 1.6;
+  display: flex; 
+  align-items: center; 
+  /* justify-content: center; */
 }
 
 .callout strong {
